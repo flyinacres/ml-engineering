@@ -13,3 +13,9 @@ sudo conda env create -f myfile.yml
 #
 # To list envs
 #     conda env list
+
+
+# In each directory, to save changed files:
+git add *.*
+git commit -m "starting chapter 1"
+git push
