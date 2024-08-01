@@ -31,8 +31,7 @@ class OutlierDetector(object):
 if __name__ == "__main__":
 
 
-    model = IsolationForest(behaviour='new',
-                    contamination=outliers_fraction,
+    model = IsolationForest( contamination=outliers_fraction,
                     random_state=42)
 
     detector = OutlierDetector(model=model)
