@@ -27,7 +27,6 @@ class OutlierDetector(object):
 
 
 
-
 if __name__ == "__main__":
 
 
